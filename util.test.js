@@ -1,3 +1,4 @@
+const puppeteer = require('puppeteer');
 const { generateText, checkAndGenerate } = require('./util');
 
 test('should output name and age', () => {
