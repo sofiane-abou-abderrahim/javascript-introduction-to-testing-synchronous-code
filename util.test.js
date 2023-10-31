@@ -21,4 +21,8 @@ test('should click around', async () => {
   await page.goto(
     'file:///C:/Users/DELL/Desktop/testing-01-starting-setup/index.html'
   );
-});
+  await page.click('input#name');
+  await page.type('input#name', 'Anna');
+  await page.click('input#age');
+  await page.type('input#age', '28');
+}, 10000);
