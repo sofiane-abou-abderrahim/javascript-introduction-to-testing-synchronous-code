@@ -18,5 +18,7 @@ test('should click around', async () => {
     args: ['--window-size=1920,1080']
   });
   const page = await browser.newPage();
-  await page.goto('http://127.0.0.1:5500/index.html');
+  await page.goto(
+    'file:///C:/Users/DELL/Desktop/testing-01-starting-setup/index.html'
+  );
 });
